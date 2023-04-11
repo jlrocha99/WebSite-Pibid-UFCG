@@ -1,0 +1,41 @@
+body {
+    padding: 5% 10%;
+}
+
+/* Title-Section */
+
+#title {
+    text-align: center;
+}
+
+header {
+    background-color: #DBDBDB;
+    
+    
+}
+
+/* Content-Home */
+
+#home-content {
+    border: 1px solid black;
+    padding: 2%;
+    width: 100%;
+    margin: 2% 0%;
+}
+
+/* Side-Content */
+
+.side-bar {
+    position: static;
+    top: 100px;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: #333;
+    border-top: 3px solid blue;
+    color: white;
+    text-align: left;
+}
