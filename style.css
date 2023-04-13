@@ -1,29 +1,57 @@
 body {
     padding: 0% 10%;
-    background: -webkit-linear-gradient(top,#8c1515,#f2ece8);
+    abackground: -webkit-linear-gradient(top,#110488e7,#0d1c2bcb,#c4b7af);
+    background: -webkit-linear-gradient(top,#071524de,#110488e7, #b3a49b);
+
 }
 
 /* Container */
 
 #container {
-    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 37%,#f2ece8 100%);
-
+    abackground: -webkit-radial-gradient(center, ellipse cover, #ffffff 37%,#f2ece8 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 37%,#f2ece8 100%); 
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
     
 }
 /* Title-Section */
 
 #title {
-    background-color: #dbdbdbaf;
+    background-color:rgba(128, 128, 128, 0.514);
     text-align: center;
 }
+header {
+    padding-bottom: 2%;
+}
+em {
+    display: inline-block;
+    width: 60%;
+    margin-top: 3%;
+}
 
+.logo-ufcg {
+    margin-top: 3%;
+    width: 12%;
+    float: left;
+    margin-left: 5%;
+
+}
+.logo-pibid {
+    margin-top: 3%;
+    width: 18%;
+    float: right;
+
+}
 .h1-title {
     font-family: 'Times New Roman', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: bold;
 }
 .h5-title {
     font-family: 'Times New Roman', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: normal;
+
+
 }
 
 .bar {
