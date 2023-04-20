@@ -108,6 +108,21 @@ em {
     line-height: 1.4em;
 }
 
+.logo-geral-projeto {
+    float: left;
+    margin: 2%;
+}
+.text-logo-geral-projeto{
+    clear: right;
+    margin: 2%;
+    text-align: left;
+}
+
+.quem-somos-galeria {
+    text-align: center;
+    padding: 1%;
+}
+
 /* Side-Content */
 
 .aside-item-list {
