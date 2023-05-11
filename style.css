@@ -123,6 +123,19 @@ em {
     padding: 1%;
 }
 
+/*escola.html - Escola-images*/
+.text-atividades {
+    clear: right;
+    margin: 2%;
+    text-align: left;
+
+}
+.images-atividades {
+    float: left;
+    margin-right: 2%;
+
+}
+
 /* Side-Content */
 
 .aside-item-list {
