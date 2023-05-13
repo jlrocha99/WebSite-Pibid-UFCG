@@ -51,7 +51,7 @@ p {
 
 .logo-ufcg {
     margin-top: 3%;
-    width: 12%;
+    width: 10%;
     float: left;
     margin-left: 5%;
 
@@ -62,10 +62,11 @@ p {
     float: right;
 
 }  
+
 .h1-title {
     font-family: 'Times New Roman', sans-serif;
-    font-size: 4rem;
-    font-weight: 300;
+    font-size: 5rem;
+    font-weight: 500;
     line-height: 1em;
     text-align: center; 
 }
@@ -75,7 +76,13 @@ p {
     font-weight: 300;
     margin-top: 0.5rem;
     text-align: center;
+}
 
+.fi-title {
+    text-align: center;
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0px;
 
 }
 /* Nav-Bar */
@@ -119,7 +126,10 @@ p {
 
 .logo-geral-projeto {
     margin: 10px 0px 10px 170px;
-    border-radius: 5px;
+    border-radius: 10px;
+    aborder: 1px solid black;
+    box-shadow: 10px -5px 10px 0px rgba(0, 0, 0, 0.3);
+
 }
 
 /*quem-somos*/
