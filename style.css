@@ -7,6 +7,8 @@ body {
 }
 header {
     padding-bottom: 2%;
+    text-align: left;
+    height: 120px;
 }
 em {
     font-family: "Source Sans Pro", Arial, sans-serif;
@@ -15,15 +17,17 @@ em {
 }
 p {
     font-family: serif;
-    font-size: 1.1em;
+    font-size: 1.05em;
     text-align: left;
     line-height: 1.3em;
 }
 .header3 {
     font-family: 'PT Serif', italic;
-    font-weight: 600;
-    font-size: 1.8em;
+    font-weight: 400;
+    font-size: 1.5em;
     line-height: 1.2em;
+    text-decoration: underline;
+    text-align: left;
 }
 .header4 {
     font-family: 'PT Serif', italic;
@@ -41,41 +45,66 @@ p {
     font-weight: 500;
     font-size: 15px;
     line-height: 1.4em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
 }
 /* Title-Section */
 
 #title {
     text-align: center;
+}
 
+.header-container {
+    border: 1px solid red;
+}
+
+.images-header {
+    border: 1px solid black;
+
+
+}
+
+.data-title {
+    font-size: 1.1rem;
+}
+.text-pibid {
+    aborder: 1px solid red;
+
+}
+.logo-coruja {
+    margin: 2rem 0rem 0rem 2rem;
+    width: 6%;
+    float: left;
 }
 
 .logo-ufcg {
-    margin-top: 3%;
-    width: 10%;
-    float: left;
-    margin-left: 5%;
+    margin: 0px 0px 0px 0px;
+    width: 8%;
+    text-align: right;
 
 }
 .logo-pibid {
-    margin-top: 3%;
-    width: 20%;
-    float: right;
+    margin: 0rem 0rem 0rem 0rem;
+    width: 15%;
+    text-align: right;
+
 
 }  
 
 .h1-title {
-    font-family: 'Times New Roman', sans-serif;
-    font-size: 5rem;
-    font-weight: 500;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 2.7em;
     line-height: 1em;
-    text-align: center; 
+    margin-top: 40px;
 }
 .h5-title {
     font-family: 'Times New Roman', sans-serif;
     font-size: 2rem;
     font-weight: 300;
     margin-top: 0.5rem;
-    text-align: center;
+    text-align: left;
 }
 
 .fi-title {
@@ -85,19 +114,30 @@ p {
     margin: 0px;
 
 }
+
+
 /* Nav-Bar */
+
 .bar {
-    background: -webkit-radial-gradient(center, ellipse cover, #ebe7e73b 37%,#eee6e023 100%);
+    margin-left: 20px;
+}
+
+.navbar {
+    width: 88%;
+    margin-left: 35px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.3);
     
 }
 
 .item-bar a {
     font-weight: 600;
-    color: #1d4387;
+    color: rgb(3, 0, 0);
 }
  
 .item-bar a:hover {
-    color: #61aa0d;
+    color: #110488e8;
 }
 
 .item-bar .dropdown-item:hover {
@@ -108,12 +148,11 @@ p {
 /* Container */
 
 #content-container {
-    padding: 2%;
-    margin: 2% 0%;
+    padding: 0% 2%;
+    margin: 0% 0%;
 }
 .row {
-    padding-left: 12px;
-    
+    padding-left: 12px;    
 }
 
 /* Home-Content */
@@ -122,12 +161,13 @@ p {
     background-color: #fff;
     box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.3);
     padding-top: 10px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .logo-geral-projeto {
-    margin: 10px 0px 10px 170px;
+    margin: 30px 0px;
     border-radius: 10px;
-    aborder: 1px solid black;
     box-shadow: 10px -5px 10px 0px rgba(0, 0, 0, 0.3);
 
 }
@@ -137,6 +177,11 @@ p {
     text-align: center;
     padding: 1%;
 }
+/*Escola*/
+.image-escola {
+    width: 100%;
+}
+
 
 /*atividades-doc - atividades-images*/
 .text-atividades {
@@ -152,18 +197,27 @@ p {
 }
 
 .link-atividades {
+    display: block;
     margin: 10px 0px;
     text-align: left;
 
-    
 }
 
 /* Side-Content */
 
+.roman {
+    display: inline-block;
+    width: 2%;
+}
 .aside-item-list {
     color: black;
     text-decoration: none;
 }
+.list-group-item {
+    box-shadow: 10px -5px 10px 0px rgba(0, 0, 0, 0.15);
+
+}
+
 .list-group-item:hover {
     cursor: pointer;
     background-color:rgba(128, 128, 128, 0.514);
@@ -187,5 +241,52 @@ p {
 }
 .btn {
     background-color: white;
+}
+
+/*Media Query */
+
+@media (max-width: 1070px) {
+    .logo-ufcg {
+        margin: 15px 50px 0px 0px;
+        width: 8%;
+        float: right;
+    }
+
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0%;
+    }
+
+    #container {
+        width: 100%;
+    }
+    .h1-title {
+        font-family: "Source Sans Pro", Arial, sans-serif;
+        font-weight: 300;
+        font-size: 1.6em;
+        line-height: 1em;
+        margin-top: 40px;
+    }
+    .logo-coruja {
+
+    }
+    .logo-ufcg {
+        margin: 2% 0% 2% 2%;
+
+    }
+
+    .logo-pibid {
+        margin: 2% 2%;
+
+    }
+
+}
+
+@media (max-width: 425px) {
+    .logo-geral-projeto{
+        width: 90%;
+    }
 }
 
