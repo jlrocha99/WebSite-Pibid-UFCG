@@ -7,8 +7,7 @@ body {
 }
 header {
     padding-bottom: 2%;
-    atext-align: left;
-    height: 120px;
+    height: 100px;
 }
 em {
     font-family: "Source Sans Pro", Arial, sans-serif;
@@ -30,10 +29,13 @@ p {
     text-align: left;
 }
 .header4 {
+    margin: 0px;
     font-family: 'PT Serif', italic;
     font-weight: 600;
     font-size: 1.5em;
     line-height: 1.2em;
+    text-decoration: underline;
+    text-align: left;
 }
 
 /* Container */
@@ -55,18 +57,13 @@ p {
     atext-align: center;
 }
 
-.images-header {
-    border: 1px solid black;
-
-
-}
-
 .container-header {
-    border: 1px solid red;
+    aborder: 1px solid red;
     max-width: 100%;
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     
     
@@ -74,27 +71,24 @@ p {
 
 .box2 {
     width: 30%;
-    height: 113px;
     display: flex;
-    justify-content: end;
+    justify-content: normal;
+    align-items: stretch;
 }
 
 .logo-coruja {
     margin:  0px 0px 0px 30px;
     width: 6%;
-    afloat: left;
 }
 
 .logo-ufcg {
-    margin: 20px 0px 0px 0px;
-    width: 30%;
-
-
+    margin: 43px 0px 0px 20px;
+    width: 21%;
 
 }
 .logo-pibid {
     margin: 20px 0px 0px 0px;
-    width: 45%;
+    width: 40%;
 
 
 }  
@@ -121,10 +115,11 @@ p {
     margin-left: 20px;
 }
 
+
 .navbar {
     width: 88%;
     margin-left: 35px;
-    margin-top: 50px;
+    margin-top: 40px;
     border-radius: 5px;
     box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.3);
     
@@ -278,9 +273,17 @@ p {
 
     }
 
+    .row {
+        padding: 16px 12px;
+    }
+
 }
 
-@media (max-width: 425px) {
+@media (max-width: 576px) {
+    .navbar {
+        margin-top: 20px;
+    }
+
     .logo-geral-projeto{
         width: 90%;
     }
@@ -302,6 +305,10 @@ p {
 
     .data-title {
         font-size: 0.7rem;
+    }
+
+    .images-atividades {
+        float: none;
     }
 }
 
