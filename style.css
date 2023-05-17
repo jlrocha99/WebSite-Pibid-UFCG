@@ -115,7 +115,6 @@ p {
     margin-left: 20px;
 }
 
-
 .navbar {
     width: 88%;
     margin-left: 35px;
@@ -138,6 +137,27 @@ p {
     color: #61aa0d;
 }
 
+.navbar-toggler {
+    width: 100%;
+    text-align: left;
+    background-color: blue;
+
+}
+
+.navbar-toggler-icon {
+    margin: 0px 0px 6px 0px;
+
+
+}
+.text-button {
+    display: inline-block;
+    margin: 0px;
+    font-family: 'PT Serif', italic;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: black;
+}
 
 /* Container */
 
@@ -280,12 +300,27 @@ p {
 }
 
 @media (max-width: 576px) {
+
     .navbar {
         margin-top: 20px;
     }
+    .row {
+        aposition: relative;
+    }
+    .content-container{
+        aposition: relative;
+    }
+
+    .side-bar {
+        position: fixed;
+        align-items: center;
+
+    }
+
 
     .logo-geral-projeto{
-        width: 90%;
+        width: 70%;
+
     }
     
     .logo-coruja {
