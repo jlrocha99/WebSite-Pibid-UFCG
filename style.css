@@ -53,18 +53,15 @@ p {
 }
 /* Title-Section */
 
-#title {
-    atext-align: center;
-}
-
 .container-header {
-    aborder: 1px solid red;
+    padding: 0px;
     max-width: 100%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: flex-start;
+    column-gap: 0px;
     
     
 }
@@ -72,7 +69,7 @@ p {
 .box2 {
     width: 30%;
     display: flex;
-    justify-content: normal;
+    justify-content: center;
     align-items: stretch;
 }
 
@@ -82,13 +79,13 @@ p {
 }
 
 .logo-ufcg {
-    margin: 43px 0px 0px 20px;
-    width: 21%;
+    margin: 50px 0px 0px 20px;
+    width: 22%;
 
 }
 .logo-pibid {
-    margin: 20px 0px 0px 0px;
-    width: 40%;
+    margin: 25px 0px 0px 10px;
+    width: 55%;
 
 
 }  
@@ -97,6 +94,7 @@ p {
     font-size: 1.0rem;
     width: 20%;
     font-weight: 400;
+    margin: 0px;
 }
 
 .h1-title {
@@ -104,7 +102,7 @@ p {
     font-weight: 300;
     font-size: 2.6em;
     line-height: 1em;
-    margin-top: 20px;
+    margin-top: 0px;
     width: 55%;
 }
 
@@ -118,7 +116,7 @@ p {
 .navbar {
     width: 88%;
     margin-left: 35px;
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 5px;
     box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.3);
     
@@ -166,7 +164,7 @@ p {
     margin: 0% 0%;
 }
 .row {
-    padding-left: 12px;    
+    padding-left: 12px;
 }
 
 /* Home-Content */
@@ -267,6 +265,8 @@ p {
     background-color: white;
 }
 
+
+
 /*Media Query */
 
 @media (max-width: 1070px) {
@@ -275,7 +275,8 @@ p {
     }
 
     .h1-title {
-        font-size: 2.0em;
+        font-size: 2.1em;
+        font-weight: 300;
     }
 
 }
@@ -284,20 +285,28 @@ p {
     body {
         padding: 0%;
     }
+
+    .container-header {
+        column-gap: 0px;
+    }
+
     .h1-title {
-        font-weight: 300;
+        font-weight: 400;
         font-size: 1.8em;
-        margin-top: 40px;
+        width: 60%;
     }
     .logo-coruja {
         margin: 40px 0px 0px 30px;
+        width: 7%;
 
     }
     .logo-ufcg {
+        width: 26%;
         margin: 40px 0px 0px 0px;
 
     }
     .logo-pibid {
+        width: 55%;
         margin: 30px 0px 0px 0px;
 
     }
@@ -316,15 +325,8 @@ p {
     }
 
     .side-bar {
-        amargin-bottom: 10px;
-        amargin-right: 20px;
-        apadding: 0px;
-        awidth: 50%;
         position: absolute;
         bottom: 1000px;
-    }
-    .home-content {
-        
     }
     
     .flex-column {
@@ -355,7 +357,6 @@ p {
         border: 1px solid red;
         position: absolute;
         position: fixed;
-        abottom: 10px;
     }
 
 
@@ -367,19 +368,19 @@ p {
     
     .logo-coruja {
         width: 10%;
-        margin: 40px 0px 10px 10px;
+        margin: 35px 0px 5px 4px;
     }
 
     .logo-ufcg {
         width: 35%;
-        margin: 40px 0px 10px 0px;
+        margin: 35px 0px 5px 0px;
     }
     .logo-pibid{
-        width: 65%;
+        width: 70%;
     }
 
     .h1-title {
-        font-size: 1.8em;
+        font-size: 1.6em;
         font-weight: 400;
     }
 
