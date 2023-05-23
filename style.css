@@ -9,6 +9,8 @@ header {
     padding-bottom: 2%;
     height: 100px;
 }
+
+
 em {
     font-family: "Source Sans Pro", Arial, sans-serif;
     display: inline-block;
@@ -20,6 +22,7 @@ p {
     text-align: left;
     line-height: 1.3em;
 }
+
 .header3 {
     font-family: 'PT Serif', italic;
     font-weight: 400;
@@ -51,6 +54,7 @@ p {
     margin-right: auto;
     max-width: 100%;
 }
+
 /* Title-Section */
 
 .container-header {
@@ -157,7 +161,8 @@ p {
     color: black;
 }
 
-/* Container */
+
+/* Content-Container */
 
 #content-container {
     padding: 0% 2%;
@@ -165,64 +170,6 @@ p {
 }
 .row {
     padding-left: 12px;
-}
-
-/* Home-Content */
-.home-content {
-    border: 1px solid rgb(193, 193, 207);
-    background-color: #fff;
-    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.3);
-    padding-top: 10px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.logo-geral-projeto {
-    margin: 30px 0px;
-    border-radius: 10px;
-    box-shadow: 10px -5px 10px 0px rgba(0, 0, 0, 0.3);
-
-}
-
-/*quem-somos*/
-.quem-somos-galeria {
-    text-align: center;
-    padding: 1%;
-}
-/*Escola*/
-.image-escola {
-    width: 90%;
-    border-radius: 5px;
-    border: 1px solid black;
-    margin: 10px 0px 20px 0px;
-    box-shadow: 10px -5px 10px 0px rgba(0, 0, 0, 0.3);
-}
-
-.text-image-escola {
-    margin: 0px 0px 10px 0px;
-    display: block;
-    text-align: center;
-}
-
-
-/*atividades-doc - atividades-images*/
-.text-atividades {
-    clear: right;
-    margin: 2%;
-    text-align: left;
-
-}
-.images-atividades {
-    float: left;
-    margin-right: 2%;
-
-}
-
-.link-atividades {
-    display: block;
-    margin: 10px 0px;
-    text-align: left;
-
 }
 
 /* Side-Content */
@@ -244,6 +191,66 @@ p {
     cursor: pointer;
     background-color:rgba(128, 128, 128, 0.514);
     
+}
+
+
+/* Home-Content */
+.home-content {
+    border: 1px solid rgb(193, 193, 207);
+    background-color: #fff;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.logo-geral-projeto {
+    margin: 30px 0px;
+    border-radius: 10px;
+    box-shadow: 10px -5px 10px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+/*Quem-Somos*/
+.quem-somos-galeria {
+    text-align: center;
+    padding: 1%;
+}
+
+/*Escola*/
+.image-escola {
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 10px 0px 20px 0px;
+    box-shadow: 10px -5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.text-image-escola {
+    margin: 0px 0px 10px 0px;
+    display: block;
+    text-align: center;
+}
+
+
+/*Atividades-Documentos */
+.text-atividades {
+    clear: right;
+    margin: 2%;
+    text-align: left;
+
+}
+.images-atividades {
+    float: left;
+    margin-right: 2%;
+
+}
+
+.link-atividades {
+    display: block;
+    margin: 10px 0px;
+    text-align: left;
+
 }
 
 /* Footer */
@@ -320,46 +327,13 @@ p {
 @media (max-width: 576px) {
 
     .navbar {
-        margin-top: 20px;
-        margin-left: 20px;
+        margin: 20px auto;
     }
 
     .side-bar {
         position: absolute;
         bottom: 1000px;
     }
-    
-    .flex-column {
-       width: 100%;
-    }
-
-    .list-group-item {
-        text-align: center;
-    }
-
-    .aside-item-list {
-        box-shadow: 10px -5px 10px 0px rgba(0, 0, 0, 0.15);
-        background-color: rgba(216, 214, 213, 0.438);
-        border-radius: 5px;
-        padding: 5px;
-    }
-
-    .side-list {
-        background-color: transparent;
-    
-    }
-    .home-content {
-        border: 1px solid green;
-        position: relative;
-    }
-
-    .container-test{
-        border: 1px solid red;
-        position: absolute;
-        position: fixed;
-    }
-
-
 
     .logo-geral-projeto{
         width: 70%;
@@ -386,11 +360,8 @@ p {
 
     .data-title {
         font-weight: bold;
-
-    }
-
-    .data-title {
         font-size: 0.7rem;
+
     }
 
     .images-atividades {
